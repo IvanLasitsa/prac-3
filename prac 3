@@ -3,7 +3,7 @@ import random
 number = str(random.randint(0, 101))
 
 while True:
-    guess = input("Введіть число ")
+    guess = int(input("Введіть число "))
     
     if number > guess:
         print("Число більше ")
